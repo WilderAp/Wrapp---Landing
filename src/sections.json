@@ -1,0 +1,53 @@
+{
+    "section-one": {
+        "nav": "",
+        "logo": "https://res.cloudinary.com/db60chvpz/image/upload/v1715141767/Landings/f5su19ja3iio9iykx2wy.png",
+        "item1": "Home",
+        "item2": "Pages",
+        "item3": "Portfolio",
+        "item4": "Blog",
+        "item5": "Contact"
+    },
+    "section-two": {
+        "Hero": "",
+        "title": "Note Your Everything In One App",
+        "description": "No Coding required to make customization. the live customizer has everything you need.",
+        "button1": "|  Download App",
+        "view": "View Promotion",
+        "infoButton1": "Free 14 Days Trial",
+        "infoButton2": "One Time Payment",
+        "bread": "Notero-Easy Note App",
+        "image": "https://res.cloudinary.com/db60chvpz/image/upload/v1715147191/Landings/vrwxzwr1mnqtuzwcfatj.png"
+    },
+    "section-last": {
+        "footer": "",
+        "logo": "https://res.cloudinary.com/db60chvpz/image/upload/v1715141767/Landings/f5su19ja3iio9iykx2wy.png",
+        "title": "",
+        "section-1": {
+            "delivery": "Warehouse Society, 234 Bahagia Ave Street PRBW 29281",
+            "email": "info@warehouse.project",
+            "phone": "1-232-3434 (Main)"
+        },
+        "section-2": {
+            "item1": "Desenvolvido por: ",
+            "item2": "Jonas Milan & André Valentim",
+            "item3": "BLOG",
+            "item4": "ABOUT",
+            "item5": "SERVICES"
+        },
+        "section-3": {
+            "button1": {
+                "title": "Facebook",
+                "icon": ""
+            },
+            "button2": {
+                "title": "Twitter",
+                "icon": ""
+            },
+            "button3": {
+                "title": "Instagram",
+                "icon": ""
+            }
+        }
+    }
+}
