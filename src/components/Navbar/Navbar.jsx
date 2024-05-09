@@ -6,14 +6,17 @@ const Navbar = () => {
   const { isOpen, handleIsOpen } = useNav();
 
   return (
-    <div className="navbar  flex justify-between px-10 py-10">
-      <div className="navbar-start">
+    <div
+      className=" flex justify-between px-10 py-10"
+      style={{ backgroundColor: "white" }}
+    >
+      <div className="">
         <a className="btn btn-ghost text-xl" href="/#">
           <img src={texts["section-one"].logo} alt="logo" />
         </a>
       </div>
       <div className="justify-between hidden lg:flex items-center">
-        <ul className="menu menu-horizontal  flex gap-16">
+        <ul className="menu menu-horizontal   gap-16">
           <li>
             <a href="/#">{texts["section-one"].item1}</a>
           </li>
@@ -28,10 +31,11 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="flex items-center   ">
+      <div className="flex items-center">
         <a
-          className="flex items-center btn border gap-2 px-3 py-2 rounded-full"
+          className="flex items-center btn  gap-2 px-3 py-2 rounded-full"
           href="/#"
+          style={{ backgroundColor: "white" }}
         >
           Contact
           <svg
