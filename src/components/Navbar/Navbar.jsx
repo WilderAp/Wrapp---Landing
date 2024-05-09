@@ -16,7 +16,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="justify-between hidden lg:flex items-center">
-        <ul className="menu menu-horizontal   gap-16">
+        <ul className="menu menu-horizontal hover:text-[#6953D3] font-semibold  gap-16">
           <li>
             <a href="/#">{texts["section-one"].item1}</a>
           </li>

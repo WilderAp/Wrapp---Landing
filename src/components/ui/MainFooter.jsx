@@ -5,39 +5,37 @@ function MainFooter() {
     <footer className="">
       <div className="mx-auto px-4 sm:px-1">
         {/* Top area: Blocks */}
-        <div className="grid items-center  lg:grid-cols-9 gap-8 py-3  border-gray-200 ">
+        <div className="menu-horizontal  items-center   gap-40 py-3  border-gray-200 ">
           {/* 1st block */}
           <div
-            className="sm:col-span-2 md:col-span-3 lg:col-span-3 text-start ml-20"
-            style={{ maxWidth: "600px" }}
+            className="btn text-start ml-20"
+            style={{
+              maxWidth: "600px",
+              backgroundColor: "transparent",
+              border: "none",
+            }}
           >
-            <div
-              className="font-bold flex items-center gap-4"
-              style={{ color: "#FFFFFF", fontSize: "25px" }}
-            >
-              <img src={texts["section-last"].logo} alt="logo" width={130} />
-              {texts["section-last"].title}
-            </div>
+            <img src={texts["section-last"].logo} alt="logo" width={130} />
           </div>
 
           {/* 2nd block */}
-          <ul className="menu-horizontal  gap-16">
-            <li>
-              <a href="/#">Home</a>
-            </li>
-            <li>
-              <a href="/#">Pages</a>
-            </li>
-            <li>
-              <a href="/#">Portfolio </a>
-            </li>
-            <li>
-              <a href="/#">Blog</a>
-            </li>
-            <li>
-              <a href="/#">Contact</a>
-            </li>
-          </ul>
+          <div className="menu-horizontal mx-auto  font-semibold gap-14">
+            <a href="/#" className="hover:text-[#6953D3]">
+              Home
+            </a>
+            <a href="/#" className="hover:text-[#6953D3]">
+              Pages
+            </a>
+            <a href="/#" className="hover:text-[#6953D3]">
+              Portfolio{" "}
+            </a>
+            <a href="/#" className="hover:text-[#6953D3]">
+              Blog
+            </a>
+            <a href="/#" className="hover:text-[#6953D3]">
+              Contact
+            </a>
+          </div>
 
           {/* 3rd block */}
           <div
@@ -66,7 +64,7 @@ function MainFooter() {
         >
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
-            &copy; Copyright 2024 . All rights reserved.
+            &copy; 2023 copyrights by ITech . All Rights Reserved.
           </div>
         </div>
       </div>

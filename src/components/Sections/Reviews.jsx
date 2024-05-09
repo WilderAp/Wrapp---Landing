@@ -1,6 +1,6 @@
 import texts from "../../sections.json";
 
-function Hero() {
+function Reviews() {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6  md:flex items-center justify-center">
@@ -18,7 +18,7 @@ function Hero() {
               }}
               className="btn-sm text-gray-200 font-semibold  hover:bg-gray-800 rounded"
             >
-              {texts["section-two"].bread}
+              Testimonials
             </span>
           </div>
           {/* Section header */}
@@ -27,7 +27,7 @@ function Hero() {
               className="text-5xl md:text-4.5xl font-semibold leading-tighter tracking-tighter mb-4 expressa"
               data-aos="zoom-y-out"
             >
-              {texts["section-two"].title}{" "}
+              Loved From Customers{" "}
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -35,8 +35,63 @@ function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                {texts["section-two"].description}
+                Notero loved from thoudsands customer worldwide and get trusted
+                from big companies.
               </p>
+              {/* Section 1 */}
+              <div
+                className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-start"
+                data-aos="zoom-y-out"
+                data-aos-delay="300"
+              >
+                <div className="flex justify-start gap-12 mt-5 mb-7">
+                  <div>
+                    <a
+                      className="flex flex-col text-center items-center  pl-5 "
+                      href="/#"
+                    >
+                      <div className=" flex  items-center justify-center w-16 h-16 ">
+                        <img
+                          src="https://res.cloudinary.com/db60chvpz/image/upload/v1715267494/Landings/iTech/jxaydmet8olhyq2mca4v.png"
+                          alt="app"
+                        />
+                      </div>
+                      <div className="">
+                        <h2 className="text-[#5038C6] text-2xl font-bold">
+                          2,5M+
+                        </h2>
+                        <h2 style={{ width: "150px" }}>
+                          Downloaded and Installation
+                        </h2>
+                      </div>
+                    </a>
+                  </div>
+                  <a
+                    className="flex flex-col text-center items-center border-l pl-10"
+                    href="/#"
+                  >
+                    <div className=" flex  items-center justify-center w-16 h-16 ">
+                      <img
+                        src="https://res.cloudinary.com/db60chvpz/image/upload/v1715267494/Landings/iTech/qr61fszoib9hiysqb3hf.png"
+                        alt="app"
+                      />
+                    </div>
+                    <div className="">
+                      <h2 className="text-[#5038C6] text-2xl font-bold">
+                        4.8/5
+                      </h2>
+                      <div className="flex justify-center">
+                        <img
+                          src="https://res.cloudinary.com/db60chvpz/image/upload/v1715272606/Landings/iTech/snrfn6gqce22otawujrc.png"
+                          alt="cc"
+                        />
+                      </div>
+                      <h2 style={{ width: "150px" }}>Based on 1,258 reviews</h2>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              {/* Section 2 */}
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-start"
                 data-aos="zoom-y-out"
@@ -44,14 +99,10 @@ function Hero() {
               >
                 <div className="flex justify-start gap-12">
                   <a
-                    className="flex gap-2 items-center  text-white bg-[#6953D3] rounded-full p-4 hover:bg-gray-800 w-full sm:w-auto sm:ml-0"
+                    className="flex gap-2 items-center  text-white bg-[#6953D3] rounded-full px-6 py-4 hover:bg-gray-800 w-full sm:w-auto sm:ml-0"
                     href="#0"
                   >
-                    <img
-                      src="https://res.cloudinary.com/db60chvpz/image/upload/v1715148094/Landings/eoxpvt8alr5dbvzjgwjj.png"
-                      alt=""
-                    />
-                    {texts["section-two"].button1}
+                    See Reviews on app store
                   </a>
                   <a className="flex items-center" href="/#">
                     <div className="border rounded-full flex items-center justify-center w-14 h-14 mr-3">
@@ -78,57 +129,6 @@ function Hero() {
                   </a>
                 </div>
               </div>
-              {/* Information btns */}
-              <div className="flex mt-10 justify-start gap-10">
-                {/* Info 1 */}
-                <div className="flex items-center">
-                  <div
-                    className="border rounded-full flex items-center justify-center w-10 h-10 mr-3"
-                    style={{ backgroundColor: "rgba(105, 83, 211, 0.1)" }}
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="#6953D3"
-                      className="w-6 h-6"
-                    >
-                      <title>trial</title>
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"
-                      />
-                    </svg>
-                  </div>
-                  <h2>{texts["section-two"].infoButton1}</h2>
-                </div>
-                {/* Info 2 */}
-                <div className="flex items-center">
-                  <div
-                    className="border rounded-full flex items-center justify-center w-10 h-10 mr-3"
-                    style={{ backgroundColor: "rgba(105, 83, 211, 0.1)" }}
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="#6953D3"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="white"
-                      className="w-6 h-6"
-                    >
-                      <title>Card</title>
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z"
-                      />
-                    </svg>
-                  </div>
-                  <h2>{texts["section-two"].infoButton2}</h2>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -145,4 +145,4 @@ function Hero() {
     </section>
   );
 }
-export default Hero;
+export default Reviews;
