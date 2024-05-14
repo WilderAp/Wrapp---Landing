@@ -16,17 +16,17 @@ const Navbar = () => {
         </a>
       </div>
       <div className="justify-between hidden lg:flex items-center">
-        <ul className="menu menu-horizontal hover:text-[#6953D3] font-semibold  gap-16">
-          <li>
+        <ul className="menu menu-horizontal  font-semibold  gap-16">
+          <li className="hover:text-[#6953D3]">
             <a href="/#">{texts["section-one"].item1}</a>
           </li>
-          <li>
+          <li className="hover:text-[#6953D3]">
             <a href="/#">{texts["section-one"].item2}</a>
           </li>
-          <li>
+          <li className="hover:text-[#6953D3]">
             <a href="/#">{texts["section-one"].item3}</a>
           </li>
-          <li>
+          <li className="hover:text-[#6953D3]">
             <a href="/#">{texts["section-one"].item4}</a>
           </li>
         </ul>
