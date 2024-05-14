@@ -1,7 +1,7 @@
 function Mobile() {
   return (
     <div className="bg-[#F9F4F4] pt-20 mt-10">
-      <div className="menu-horizontal gap-16">
+      <div className="lg:menu-horizontal menu-vertical items-center gap-16">
         <div>
           <img
             src="https://res.cloudinary.com/db60chvpz/image/upload/v1715234620/Landings/iTech/axss7sxd2jtvrvqlt4xa.png"

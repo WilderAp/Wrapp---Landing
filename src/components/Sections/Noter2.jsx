@@ -4,7 +4,7 @@ function Noter2() {
   return (
     <section className="relative">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6  flex flex-col md:flex-row items-center justify-between mt-10">
-        <div className="w-2/5 mx-auto text-center pb-12 md:pb-10">
+        <div className="lg:w-2/5 mx-auto text-center pb-12 md:pb-10">
           <div className="text-start">
             <div
               style={{
@@ -93,7 +93,7 @@ function Noter2() {
           <div className="relative flex flex-col items-center   ">
             <div className="md:ml-10 mt-10 w-7xl">
               <img
-                className="md:max-w-none mx-auto mr-20"
+                className="md:max-w-none mx-auto lg:mr-20"
                 src={texts["section-six"].picture}
                 width={600}
                 height="300"

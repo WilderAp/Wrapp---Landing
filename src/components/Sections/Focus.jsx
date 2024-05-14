@@ -17,7 +17,7 @@ function Focus() {
             </div>
           </div>
         </div>
-        <div className="w-2/5 mx-auto text-center pb-12 md:pb-10">
+        <div className="lg:w-2/5 mx-auto text-center pb-12 md:pb-10">
           <div className="text-start">
             <div
               style={{

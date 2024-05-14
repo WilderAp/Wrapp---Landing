@@ -7,11 +7,11 @@ const Navbar = () => {
 
   return (
     <div
-      className=" flex justify-between px-10 py-10"
+      className=" flex justify-between px-5 lg:px-10 py-10"
       style={{ backgroundColor: "white" }}
     >
       <div className="">
-        <a className="btn btn-ghost text-xl" href="/#">
+        <a className=" text-xl" href="/#">
           <img src={texts["section-one"].logo} alt="logo" />
         </a>
       </div>

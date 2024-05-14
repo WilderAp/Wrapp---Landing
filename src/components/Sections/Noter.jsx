@@ -17,7 +17,7 @@ function Noter() {
             </div>
           </div>
         </div>
-        <div className="w-2/5 mx-auto text-center pb-12 md:pb-10">
+        <div className="lg:w-2/5 mx-auto text-center pb-12 md:pb-10">
           <div className="text-start">
             <div
               style={{
@@ -43,7 +43,7 @@ function Noter() {
             </p>
 
             {/* Items */}
-            <section className="sm:flex max-w-sm mx-auto flex flex-col gap-5  items-start md:max-w-2xl lg:max-w-4xl  mb-10 mt-10">
+            <section className="sm:flex  mx-auto flex flex-col gap-5  items-start md:max-w-2xl lg:max-w-4xl  mb-10 mt-10">
               {/* item 1 */}
               <div className="flex items-center">
                 <div

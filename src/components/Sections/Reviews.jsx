@@ -40,14 +40,14 @@ function Reviews() {
               </p>
               {/* Section 1 */}
               <div
-                className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-start"
+                className=" mx-auto flex justify-start"
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               >
                 <div className="flex justify-start gap-12 mt-5 mb-7">
                   <div>
                     <a
-                      className="flex flex-col text-center items-center  pl-5 "
+                      className="flex flex-col text-center items-center  lg:pl-5 "
                       href="/#"
                     >
                       <div className=" flex  items-center justify-center w-16 h-16 ">
@@ -67,7 +67,7 @@ function Reviews() {
                     </a>
                   </div>
                   <a
-                    className="flex flex-col text-center items-center border-l pl-10"
+                    className="flex flex-col text-center items-center border-l lg:pl-10"
                     href="/#"
                   >
                     <div className=" flex  items-center justify-center w-16 h-16 ">
@@ -132,14 +132,69 @@ function Reviews() {
             </div>
           </div>
         </div>
-        <div className="md:ml-10 mt-10">
-          <img
-            className="md:max-w-none mx-auto rounded"
-            src={texts["section-two"].image}
-            width={500}
-            height="150"
-            alt="Business man"
-          />
+        <div className="md:ml-10 mt-10 flex flex-col gap-5">
+          {/* Card 1 */}
+          <div className="card card-side bg-base-100 shadow-xl">
+            <figure className="pl-6">
+              <img
+                src="https://res.cloudinary.com/db60chvpz/image/upload/v1715721395/iTech/vyjpd7gd4y8qwvvpoclw.png"
+                alt="Movie"
+              />
+            </figure>
+            <div className="card-body">
+              <figure className="w-20">
+                <img
+                  src="https://res.cloudinary.com/db60chvpz/image/upload/v1715272606/Landings/iTech/snrfn6gqce22otawujrc.png"
+                  alt="cc"
+                />
+              </figure>
+              <p>
+                “You can even send emails to Evernote and gatherall of the
+                things you need in a single place.”
+              </p>
+            </div>
+          </div>
+
+          {/* Card 2 */}
+          <div className="card card-side bg-base-100 shadow-xl">
+            <figure className="pl-6">
+              <img
+                src="https://res.cloudinary.com/db60chvpz/image/upload/v1715721394/iTech/uj8lfq1aezuaqsmutk8v.png"
+                alt="Movie"
+              />
+            </figure>
+            <div className="card-body">
+              <figure className="w-20">
+                <img
+                  src="https://res.cloudinary.com/db60chvpz/image/upload/v1715272606/Landings/iTech/snrfn6gqce22otawujrc.png"
+                  alt="cc"
+                />
+              </figure>
+              <p>“Notero - 1st my choice for notes app. Awesome”</p>
+            </div>
+          </div>
+          {/* Card 3 */}
+          <div className="card card-side bg-base-100 shadow-xl">
+            <figure className="pl-6">
+              <img
+                src="https://res.cloudinary.com/db60chvpz/image/upload/v1715721394/iTech/jonurqljhspjzay75hau.png"
+                alt="Movie"
+              />
+            </figure>
+            <div className="card-body">
+              <figure className="w-20">
+                <img
+                  src="https://res.cloudinary.com/db60chvpz/image/upload/v1715272606/Landings/iTech/snrfn6gqce22otawujrc.png"
+                  alt="cc"
+                />
+              </figure>
+              <p>
+                “.This app is seriously good. It’s simple, clean anda real joy
+                to use.”
+              </p>
+            </div>
+          </div>
+          {/*  */}
         </div>
       </div>
     </section>
