@@ -2,8 +2,8 @@ import texts from "../../sections.json";
 
 function MainFooter() {
   return (
-    <footer className="items-center p-4  text-neutral-content grid grid-cols-2">
-      <aside className="items-center grid-flow-col">
+    <footer className="items-center p-4 px-5 lg:px-20 text-neutral-content grid grid-cols-2">
+      <aside className="items-center flex justify-evenly">
         <div
           className=" text-start "
           style={{
