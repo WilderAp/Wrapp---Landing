@@ -10,49 +10,38 @@ const Navbar = () => {
       className=" flex justify-between px-5 lg:px-10 py-10"
       style={{ backgroundColor: "white" }}
     >
-      <div className="">
+      <div className="flex items-center gap-10">
         <a className=" text-xl" href="/#">
           <img src={texts["section-one"].logo} alt="logo" />
         </a>
+        <div className="justify-between hidden md:flex items-center">
+          <ul className="flex justify-between  font-semibold  gap-10">
+            <li className="hover:text-[#6953D3]">
+              <a href="/#">{texts["section-one"].item1}</a>
+            </li>
+            <li className="hover:text-[#6953D3]">
+              <a href="/#">{texts["section-one"].item2}</a>
+            </li>
+            <li className="hover:text-[#6953D3]">
+              <a href="/#">{texts["section-one"].item3}</a>
+            </li>
+            <li className="hover:text-[#6953D3]">
+              <a href="/#">{texts["section-one"].item4}</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div className="justify-between hidden lg:flex items-center">
-        <ul className="menu menu-horizontal  font-semibold  gap-16">
-          <li className="hover:text-[#6953D3]">
-            <a href="/#">{texts["section-one"].item1}</a>
-          </li>
-          <li className="hover:text-[#6953D3]">
-            <a href="/#">{texts["section-one"].item2}</a>
-          </li>
-          <li className="hover:text-[#6953D3]">
-            <a href="/#">{texts["section-one"].item3}</a>
-          </li>
-          <li className="hover:text-[#6953D3]">
-            <a href="/#">{texts["section-one"].item4}</a>
-          </li>
-        </ul>
-      </div>
-      <div className="flex items-center">
+
+      <div className="flex items-center gap-10 md:flex hidden">
+        <a className="text-[#7C3AED] font-semibold" href="/#">
+          {texts["section-one"].item6}
+        </a>
         <a
-          className="flex items-center btn  gap-2 px-3 py-2 rounded-full"
+          className="flex items-center btn text-white  gap-2 px-10 py-2 rounded-full"
           href="/#"
-          style={{ backgroundColor: "white" }}
+          style={{ backgroundColor: "#7C3AED" }}
         >
-          Contact
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-4 h-4"
-          >
-            <title>arrow</title>
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-            />
-          </svg>
+          {texts["section-one"].item7}
         </a>
       </div>
       <MenuMobile isOpen={isOpen} onClick={handleIsOpen} />
