@@ -8,6 +8,7 @@ import Noter2 from "./components/Sections/Noter2";
 import Focus from "./components/Sections/Focus";
 import Mobile from "./components/Sections/Mobile";
 import Reviews from "./components/Sections/Reviews";
+import Banner from "./components/Sections/Banner";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Focus />
         <Mobile />
         <Reviews />
+        <Banner />
       </Layout>
       <MainFooter />
     </main>

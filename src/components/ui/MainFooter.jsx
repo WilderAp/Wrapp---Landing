@@ -12,7 +12,7 @@ function MainFooter() {
           }}
         >
           <a href="/">
-            <img src={texts["section-last"].logo} alt="logo" width={130} />
+            <img src={texts["section-last"].logo} alt="logo" />
           </a>
         </div>
         <p>Copyright © 2024 - All right reserved</p>
