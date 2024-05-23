@@ -10,7 +10,7 @@ const Navbar = () => {
       className=" flex justify-between px-5 lg:px-10 py-10"
       style={{ backgroundColor: "white" }}
     >
-      <div className="flex items-center gap-10">
+      <div className="flex items-center gap-16">
         <a className=" text-xl" href="/#">
           <img src={texts["section-one"].logo} alt="logo" />
         </a>
@@ -27,6 +27,9 @@ const Navbar = () => {
             </li>
             <li className="hover:text-[#6953D3]">
               <a href="/#">{texts["section-one"].item4}</a>
+            </li>
+            <li className="hover:text-[#6953D3]">
+              <a href="/#">{texts["section-one"].item5}</a>
             </li>
           </ul>
         </div>

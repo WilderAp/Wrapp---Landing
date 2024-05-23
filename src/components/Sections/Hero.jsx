@@ -5,11 +5,11 @@ function Hero() {
     <section className="relative">
       <div className="md:max-w-6xl mx-auto px-4 sm:px-6  md:flex items-center justify-center">
         {/* Hero content */}
-        <div className="pt-10 pb-12 md:pt-10 lg:pb-20 text-center">
-          <h1 className="text-6xl font-bold mb-7">
+        <div className=" pb-12 md:pt-10 lg:pb-20 text-center">
+          <h1 className="text-5xl md:text-6xl font-bold mb-7 md:pt-10">
             All your ideas in one place
           </h1>
-          <p className="mb-7 md>px-40">
+          <p className="mb-7 md:px-40">
             Sit elit feugiat turpis sed integer integer accumsan turpis. Sed
             suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices
             amet, dui sit suspendisse.

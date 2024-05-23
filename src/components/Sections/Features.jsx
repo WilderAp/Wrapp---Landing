@@ -34,7 +34,7 @@ function Features() {
           <div className="max-w-sm  mx-auto flex flex-col ">
             <div className="mx-auto">
               <img
-                src="https://res.cloudinary.com/db60chvpz/image/upload/v1715223417/Landings/feature2/w98ny1gormp5x7wit8t5.png"
+                src="https://res.cloudinary.com/db60chvpz/image/upload/v1716423907/Wrapp/q6ilexkfft0bqyljcelu.png"
                 alt="img1"
                 width={100}
               />
@@ -50,7 +50,7 @@ function Features() {
           <div className="max-w-sm  mx-auto flex flex-col ">
             <div className="mx-auto">
               <img
-                src="https://res.cloudinary.com/db60chvpz/image/upload/v1715223417/Landings/feature2/w98ny1gormp5x7wit8t5.png"
+                src="https://res.cloudinary.com/db60chvpz/image/upload/v1716423907/Wrapp/yrighmkgcftiqywp002u.png"
                 alt="img1"
                 width={100}
               />
@@ -66,7 +66,7 @@ function Features() {
           <div className="max-w-sm  mx-auto flex flex-col ">
             <div className="mx-auto">
               <img
-                src="https://res.cloudinary.com/db60chvpz/image/upload/v1715223417/Landings/feature2/w98ny1gormp5x7wit8t5.png"
+                src="https://res.cloudinary.com/db60chvpz/image/upload/v1716423907/Wrapp/ycerbsypqhwnwaxq624j.png"
                 alt="img1"
                 width={100}
               />
@@ -82,7 +82,7 @@ function Features() {
           <div className="max-w-sm  mx-auto flex flex-col ">
             <div className="mx-auto">
               <img
-                src="https://res.cloudinary.com/db60chvpz/image/upload/v1715223417/Landings/feature2/w98ny1gormp5x7wit8t5.png"
+                src="https://res.cloudinary.com/db60chvpz/image/upload/v1716423907/Wrapp/lwcwbnoder6juxdwj8c0.png"
                 alt="img1"
                 width={100}
               />

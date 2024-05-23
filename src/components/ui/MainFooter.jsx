@@ -2,8 +2,8 @@ import texts from "../../sections.json";
 
 function MainFooter() {
   return (
-    <footer className="items-center p-4 px-5 lg:px-20 text-neutral-content grid grid-cols-2">
-      <aside className="items-center flex justify-evenly">
+    <footer className="items-center md:p-4 md:px-5 lg:px-20  grid md:grid-cols-2 mt-20">
+      <aside className="items-center flex gap-5">
         <div
           className=" text-start "
           style={{
@@ -19,19 +19,19 @@ function MainFooter() {
       </aside>
       <nav className="flex flex-col gap-2 lg:grid grid-cols-5 ">
         <a href="/#" className="hover:text-[#6953D3]">
-          Home
+          Products
         </a>
         <a href="/#" className="hover:text-[#6953D3]">
-          Pages
+          Solutions
         </a>
         <a href="/#" className="hover:text-[#6953D3]">
-          Portfolio{" "}
+          Pricing{" "}
+        </a>
+        <a href="/#" className="hover:text-[#6953D3]">
+          Resources
         </a>
         <a href="/#" className="hover:text-[#6953D3]">
           Blog
-        </a>
-        <a href="/#" className="hover:text-[#6953D3]">
-          Contact
         </a>
       </nav>
     </footer>

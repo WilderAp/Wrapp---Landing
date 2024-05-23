@@ -2,10 +2,10 @@ import texts from "../../sections.json";
 
 function Reviews() {
   return (
-    <section className="relative">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6  md:flex items-center justify-center">
+    <section className="relative bg-[#F1F5F9]">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6  md:flex items-center ">
         {/* Hero content */}
-        <div className="text-center md:text-start w-[460px]">
+        <div className="text-center md:text-start max-w-[460px]">
           <h2 className="text-[#475569] font-semibold">NO LIMITS</h2>
           <h1 className="text-black text-4xl font-bold mb-5">
             Unlimited ideas for your projects{" "}

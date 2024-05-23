@@ -6,7 +6,7 @@ function Mobile() {
           <div className="relative flex flex-col items-center   ">
             <div className="md:ml-10 mt-10 w-7xl">
               <img
-                className="md:max-w-none mx-auto mr-20"
+                className="md:max-w-none mx-auto md:mr-20"
                 src="https://res.cloudinary.com/db60chvpz/image/upload/v1716351443/Wrapp/g0qw27xjwi0vpewwl5pa.png"
                 width={500}
                 height="300"
@@ -15,7 +15,7 @@ function Mobile() {
             </div>
           </div>
         </div>
-        <div className="lg:w-2/5 mx-auto text-center ">
+        <div className=" mx-auto text-center ">
           <div className="text-center md:text-start ">
             <h2 className="text-[#475569] font-semibold">NO LIMITS</h2>
             <h1 className="text-black text-4xl font-bold mb-5">
